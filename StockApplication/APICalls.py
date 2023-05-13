@@ -8,7 +8,7 @@ class APIRequests:
    def ReturnFundamentalData(tag, ReceiveType):
     
 
-    url = 'https://www.alphavantage.co/query?function='+ReceiveType+'&symbol='+tag+'&apikey=8FE7NW93X6D8T1AX'
+    url = 'https://www.alphavantage.co/query?function='+ReceiveType+'&symbol='+tag+'&apikey=DEMO'
     r = requests.get(url)
     Data = r.json()
     print(Data)
@@ -16,20 +16,20 @@ class APIRequests:
   
 
    def SearchEndpoint(search_value):
-    url = 'https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords='+search_value+'&apikey=8FE7NW93X6D8T1AX'
+    url = 'https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords='+search_value+'&apikey=DEMO'
     r = requests.get(url)
     Data = r.json()
     return Data 
 
    def ReceiveCompanyOverview(tag):
-    url = 'https://www.alphavantage.co/query?function=OVERVIEW&symbol='+tag+'&apikey=8FE7NW93X6D8T1AX'
+    url = 'https://www.alphavantage.co/query?function=OVERVIEW&symbol='+tag+'&apikey=DEMO'
     r = requests.get(url)
     Data = r.json()
     print(Data)
     return Data
 
    def ReceiveWeeklyPriceInformation(tag):
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY_ADJUSTED&symbol='+tag+'&apikey=8FE7NW93X6D8T1AX'
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY_ADJUSTED&symbol='+tag+'&apikey=DEMO'
     r = requests.get(url)
     Data = r.json()
     return Data
