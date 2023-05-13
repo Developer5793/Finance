@@ -1,5 +1,5 @@
 A program to automate the fundamental analysis of US listed Equities with Dash/Flask. Just search for a stock and wait a minute before clicking on it. (Only 5 API calls per Minute allowed)
-If you type yourlocalhost/ratiopage you need to come to the fundamental calculations.
+If you type yourlocalhost/ratiopage you see fundamental calculations.
 
 
 
