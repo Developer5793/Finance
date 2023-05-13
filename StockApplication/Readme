@@ -1,1 +1,2 @@
-A program to automate the fundamental analysis of listed US listed Stocks. Just search for a stock and wait a minute after found it. (Only 5 API calls per Minute allowed)
+A program to automate the fundamental analysis of US listed Equities. Just search for a stock and wait a minute before clicking on it. (Only 5 API calls per Minute allowed)
+If you type /ratiopage you need to come to the fundamental calculations.
