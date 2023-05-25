@@ -1,0 +1,1 @@
+This program automates the fundamental analysis of Stocks. It uses an API and calculates fundamental ratios based on the Api Results.Ifyou use it please make sure  you are only doing 5 API Calls epr Mintue as this is the current max.
